@@ -55,7 +55,7 @@ a:focus {
   color: rgb(96, 112, 116);
 }
 
-nav ul {
+ul {
   list-style: none;
   margin: 0;
   padding: 0;
@@ -242,7 +242,12 @@ header {
   align-items: center;
   justify-content: space-between;
   padding-top: 2em;
-  padding-right: 50px;
+  gap: 1em;
+  /* padding-right: 50px; */
+}
+
+.post-icon {
+  border-radius: 5px;
 }
 
 .tags {
@@ -253,21 +258,11 @@ header {
   padding: 10px 20px;
 }
 
-.tag-one {
-  padding-bottom: 30px;
-
-  display: flex;
-  justify-content: space-around;
-}
-
-.tag-two {
-  padding-bottom: 30px;
-  display: flex;
-  justify-content: space-around;
-}
-
+.tag-one,
+.tag-two,
 .tag-three {
-  padding-bottom: 30px;
+  padding-bottom: 10px;
+
   display: flex;
   justify-content: space-around;
 }
@@ -299,14 +294,12 @@ header {
   /* box-shadow: #003b4a 0 0 5px; */
 }
 
+/* CONTACT SECTION BOTTOM */
 .contact {
   width: 100%;
   margin: 0 auto;
   background: #8fbdd9;
   padding: 3em 2em;
-  /* margin-bottom: 4em; */
-
-  /* columns: 40em; */
 }
 
 .contact-me {
@@ -318,12 +311,6 @@ header {
 }
 
 .info-container {
-  /* display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-
-    grid-template-areas:
-        "office call write";
-    gap: 1em; */
   padding-top: 50px;
   display: flex;
   flex-direction: row;
@@ -337,10 +324,58 @@ header {
   border: #0388a6 1px solid;
   border-radius: 5px;
   padding: 0.5em;
+  padding-left: 2em;
   width: 350px;
   background-color: #c2e0f2;
+
+  display: flex;
+  flex-direction: row;
+  gap: 2em;
 }
 
+.fa-location-pin,
+.fa-envelope,
+.fa-user,
+.fa-square-facebook,
+.fa-square-twitter,
+.fa-hashtag {
+  font-size: 4rem;
+  color: #003b4a;
+}
+/* PRE-FOOTER SOCIAL INFORMATION  */
+
+.pre-footer {
+  background: #f2b705;
+  padding: 3em 6em;
+  width: 100%;
+  margin: 0 auto;
+  box-shadow: #003b4a 0 0 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 25em;
+}
+
+.social-pre-footer {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+
+.social-media-icons {
+  display: flex;
+  gap: 2em;
+
+  color: #003b4a;
+}
+
+.info-prefooter {
+  display: flex;
+  gap: 4em;
+}
+
+/* FOOTER */
 .footer {
   width: 100%;
   background: #024959;
@@ -384,5 +419,18 @@ header {
   }
   .nav-top {
     display: none;
+  }
+
+  .pre-footer {
+    /* background: #f2b705; */
+    padding: 3em 1em;
+    /* width: 100%; */
+    /* margin: 0 auto; */
+    box-shadow: #003b4a 0 0 10px;
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: center; */
+    align-items: center;
+    gap: 5em;
   }
 }
