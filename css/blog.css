@@ -137,17 +137,18 @@ header {
   align-content: center;
   justify-content: center;
   grid-template-columns: 400px 400px 400px;
-  grid-template-rows: 450px 450px;
+  grid-template-rows: auto;
   grid-gap: 1em;
   grid-template-areas:
-    "post-one post-two aside"
+    "post-one post-one aside"
     "post-three post-four aside";
   margin-bottom: 5em;
 }
 
 .post-one {
   grid-area: post-one;
-  align-self: baseline;
+
+  margin-top: 30px;
 }
 
 .post-two {
@@ -163,7 +164,7 @@ header {
 }
 
 .post {
-  padding: 0 1em;
+  padding: 0;
 }
 
 .card-img {
@@ -419,6 +420,10 @@ header {
   }
   .nav-top {
     display: none;
+  }
+
+  .post-one img {
+    width: 100%;
   }
 
   .pre-footer {
