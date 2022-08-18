@@ -1,84 +1,4 @@
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-}
-
-html {
-  font-size: 62.5%;
-}
-
-body {
-  margin: 0;
-  /* padding-bottom: 2em; */
-  /* font-family: "Sen", sans-serif; */
-  font-family: "Syne", sans-serif;
-  font-size: 1.6rem;
-  line-height: 1.6;
-  color: #003b4a;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p {
-  margin: 0;
-}
-
-h1,
-h3 {
-  font-weight: 700;
-  line-height: 1;
-}
-
-h1 {
-  font-size: 7rem;
-}
-
-h2 {
-  text-transform: uppercase;
-}
-
-h3 {
-  font-size: 2.5rem;
-}
-
-/* a {
-  color: #f69333;
-} */
-
-a:hover,
-a:focus {
-  color: rgb(96, 112, 116);
-}
-
-ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
-
-nav ul li {
-  display: inline-block;
-  margin: 0;
-  padding: 0 1em;
-}
-
-nav ul li a {
-  color: #003b4a;
-  text-decoration: none;
-  font-size: 1.6rem;
-}
-
-header {
-  width: 100%;
-  background: #0388a6;
-  text-align: center;
-  padding: 4em 0;
-}
+@import "/css/general.css";
 
 .nav-top {
   padding-bottom: 100px;
@@ -338,7 +258,8 @@ header {
 .fa-user,
 .fa-square-facebook,
 .fa-square-twitter,
-.fa-hashtag {
+.fa-hashtag,
+.fa-bars {
   font-size: 4rem;
   color: #003b4a;
 }
@@ -400,6 +321,9 @@ header {
   .sidebar {
     width: 25%;
     margin-right: auto;
+  }
+  .mobile-nav {
+    display: none;
   }
 }
 
