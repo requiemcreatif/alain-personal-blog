@@ -50,6 +50,7 @@ ul a {
   margin-top: 0;
 }
 
+/* MAIN CONTENT */
 .main {
   display: grid;
   align-content: center;
@@ -65,12 +66,15 @@ ul a {
 
 .post-one {
   grid-area: post-one;
-
   margin-top: 30px;
 }
 
-.post-two {
-  grid-area: post-two;
+.blog-article {
+  padding: 20px 20px;
+}
+
+.article-title {
+  padding: 0 20px 20px 20px;
 }
 
 .post-three {
@@ -300,20 +304,13 @@ ul a {
 }
 
 @media (width < 1200px) {
-  /* .page-wrapper {
-    display: flex;
-    flex-wrap: wrap;
-  } */
-
   .main {
-    /* background-color: #0388a6; */
-    /* width: 100%; */
     margin-left: auto;
     display: grid;
     align-content: center;
     justify-content: center;
     grid-template-columns: 250px 250px 300px;
-    grid-template-rows: 400px 450px;
+    grid-template-rows: auto 450px;
     gap: 0.5em;
   }
 
