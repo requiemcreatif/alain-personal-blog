@@ -355,6 +355,43 @@
   }
 
   h1 {
-    font-size: 3.5em;
+    font-size: 3em;
+  }
+}
+
+@media (width < 360px) {
+  .main {
+    width: 100%;
+    padding: 2rem;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    grid-gap: 2em;
+    grid-template-areas:
+      "post-one"
+      "post-two"
+      "post-three"
+      "post-four "
+      "aside";
+  }
+
+  .nav-top ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .pre-footer {
+    padding: 3em 1em;
+    box-shadow: #003b4a 0 0 10px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 5em;
+  }
+
+  h1 {
+    font-size: 3em;
   }
 }
