@@ -35,4 +35,12 @@
 <!-- TEXTES AND REFERENCES -->
 
 <!-- PAGE STRUCTURES -->
+
+Css grid and Flex box
+
 <!-- CSS grid for the main layout -->
+
+All the quotes and text are extracted from "Le Petit Prince" => The Little Prince.
+by Antoine de Saint-Exupéry.
+
+https://en.wikipedia.org/wiki/The_Little_Prince
