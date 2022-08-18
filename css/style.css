@@ -353,4 +353,8 @@
     align-items: center;
     gap: 5em;
   }
+
+  h1 {
+    font-size: 3.5em;
+  }
 }
