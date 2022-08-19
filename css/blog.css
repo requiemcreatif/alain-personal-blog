@@ -93,6 +93,7 @@ ul a {
   width: 100%;
   height: auto;
   padding: auto;
+  margin-left: 0;
 }
 
 .card-img img {
