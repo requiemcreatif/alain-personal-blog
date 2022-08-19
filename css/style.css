@@ -313,11 +313,11 @@
     padding-right: 0;
   }
 
-  .category {
+  /* .category {
     padding-bottom: 30px;
     margin-bottom: 1em;
     padding: 5px 5px;
-  }
+  } */
 }
 
 /* mobile media query */
@@ -355,12 +355,13 @@
   }
 
   h1 {
-    font-size: 3em;
+    font-size: 3.2em;
   }
 }
 
 @media (width < 360px) {
   .main {
+    width: 360px;
     width: 100%;
     padding: 2rem;
     display: grid;
@@ -383,15 +384,19 @@
   }
 
   .pre-footer {
-    padding: 3em 1em;
+    background-color: #0388a6;
+    padding: 1em 0.5em;
     box-shadow: #003b4a 0 0 10px;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    gap: 5em;
+    gap: 1em;
   }
 
   h1 {
     font-size: 3em;
+  }
+  .page-wrapper {
+    display: flex;
   }
 }
