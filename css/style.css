@@ -298,7 +298,7 @@
     display: grid;
     grid-template-columns: 1fr;
     /* grid-template-rows: auto; */
-    grid-gap: 2em;
+    grid-gap: 1em;
     grid-template-areas:
       "post-one"
       "post-two"
@@ -340,7 +340,7 @@
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: auto;
-    grid-gap: 2em;
+    grid-gap: 0.5em;
     grid-template-areas:
       "post-one"
       "post-two"
