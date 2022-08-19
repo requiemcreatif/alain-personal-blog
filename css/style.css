@@ -384,8 +384,8 @@
   }
 
   .pre-footer {
-    background-color: #0388a6;
-    padding: 1em 0.5em;
+    /* background-color: #0388a6; */
+    padding: 1em 1.5em;
     box-shadow: #003b4a 0 0 10px;
     display: flex;
     flex-wrap: wrap;
@@ -393,10 +393,12 @@
     gap: 1em;
   }
 
+  .info-prefooter {
+    padding: 0 15px;
+    gap: 2.5em;
+  }
+
   h1 {
     font-size: 3em;
-  }
-  .page-wrapper {
-    display: flex;
   }
 }
