@@ -10,7 +10,7 @@ html {
 }
 
 body {
-  margin: 0;
+  margin: 0 auto;
   /* padding-bottom: 2em; */
   font-family: "Syne", sans-serif;
   font-size: 1.6rem;
