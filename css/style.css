@@ -5,8 +5,8 @@
 /* MAIN LAYOUT */
 
 .main {
-  max-width: 1200px;
-  margin: 0 auto;
+  /* max-width: 1200px;
+  margin: 0 auto; */
 }
 .banner h1 {
   font-size: 3.5em;
