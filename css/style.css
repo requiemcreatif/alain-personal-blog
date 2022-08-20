@@ -5,8 +5,8 @@
 /* MAIN LAYOUT */
 
 .main {
-  /* max-width: 1200px;
-  margin: 0 auto; */
+  max-width: 1200px;
+  margin: 0 auto;
 }
 .banner h1 {
   font-size: 3.5em;
@@ -32,8 +32,13 @@
 }
 
 .post {
-  margin: 0 auto;
-  padding: 1em;
+  padding-left: 1em;
+  /* margin: 0 auto; */
+  /* padding: 1em; */
+}
+
+.post-text {
+  padding: 0 1.2em;
 }
 
 .card-img {
