@@ -3,22 +3,20 @@
 @import "/css/font.css";
 
 /* MAIN LAYOUT */
-/* .main {
-  display: grid;
-  align-content: center;
-  justify-content: center;
-  grid-template-columns: 400px 400px 400px;
-  grid-template-rows: 450px 450px;
-  grid-gap: 1em;
-  grid-template-areas:
-    "post-one post-two aside"
-    "post-three post-four aside";
-  margin-bottom: 5em;
-} */
+
+.main {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.banner h1 {
+  font-size: 3.5em;
+  font-weight: 700;
+
+  margin-bottom: 1em;
+}
 
 .post-one {
   grid-area: post-one;
-  align-self: baseline;
 }
 
 .post-two {
@@ -34,7 +32,8 @@
 }
 
 .post {
-  padding: 0 1em;
+  margin: 0 auto;
+  padding: 1em;
 }
 
 .card-img {
@@ -48,9 +47,11 @@
 }
 
 .aside {
+  grid-area: aside;
   padding-top: 30px;
   border-radius: 5px;
   height: auto;
+  padding: 1em;
 }
 
 .aside li {
@@ -237,3 +238,13 @@
 }
 
 /* MEDIA QUERY */
+@media (min-width: 500px) {
+  .main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas:
+      "post-one post-two aside"
+      "post-three post-four aside";
+    gap: 1em;
+  }
+}
