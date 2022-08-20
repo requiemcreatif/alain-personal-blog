@@ -36,15 +36,20 @@
   /* padding: 1em; */
 }
 
+.post img {
+  width: 100%;
+  height: auto;
+}
+
 .post-text {
   padding: 0 1.2em;
 }
 
-.card-img {
+/* .card-img {
   width: 100%;
   height: auto;
   padding: auto;
-}
+} */
 
 .card-img img {
   border-radius: 10px;
