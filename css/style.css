@@ -7,6 +7,7 @@
 .main {
   max-width: 1200px;
   margin: 0 auto;
+  padding: 0 25px;
 }
 .banner h1 {
   font-size: 3.5em;
@@ -208,7 +209,7 @@
 
 .pre-footer {
   background: #f2b705;
-  padding: 3em 6em;
+  padding: 3em 35px;
   width: 100%;
   margin: 0 auto;
   box-shadow: #003b4a 0 0 10px;
@@ -216,18 +217,24 @@
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  gap: 20em;
+  gap: 4em;
 }
 
 .social-pre-footer {
-  display: flex;
+  /* display: flex;
   flex-direction: column;
-  gap: 1em;
+  gap: 1em; */
+  align-items: center;
+}
+
+.text-pre-footer {
+  padding-bottom: 20px;
+  color: #003b4a;
 }
 
 .social-media-icons {
   display: flex;
-  gap: 2em;
+  gap: 4em;
 
   color: #003b4a;
 }
@@ -255,5 +262,12 @@
       "post-one post-two aside"
       "post-three post-four aside";
     gap: 1em;
+    padding-bottom: 30px;
+  }
+  .pre-footer {
+    gap: 20em;
+  }
+  .aside {
+    padding-top: 28px;
   }
 }

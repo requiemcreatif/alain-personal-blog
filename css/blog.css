@@ -21,7 +21,10 @@ ul a {
 .intro {
   width: 100%;
 }
-
+blockquote {
+  margin-left: 0px;
+  margin-right: 0px;
+}
 .quote {
   font-size: 1.2em;
 }
