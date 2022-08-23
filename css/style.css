@@ -303,6 +303,10 @@
     align-items: center;
   }
 
+  .nav-top {
+    display: none;
+  }
+
   .links {
     height: 0;
     overflow: hidden;
