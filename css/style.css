@@ -3,8 +3,16 @@
 @import "/css/font.css";
 
 /* MAIN LAYOUT */
+/* .mobile-nav {
+  display: none;
+} */
 
-.main {
+/* display nav-top */
+.nav-top {
+  padding-bottom: 100px;
+}
+
+.nav-top .main {
   max-width: 1200px;
   margin: 0 auto;
   padding: 0 25px;
@@ -253,6 +261,10 @@
   color: #efefef;
 }
 
+.links {
+  height: auto;
+}
+
 /* MEDIA QUERY */
 @media (min-width: 500px) {
   .main {
@@ -270,4 +282,44 @@
   .aside {
     padding-top: 28px;
   }
+
+  .show-links {
+    height: 10rem;
+  }
+
+  /* .nav-top ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  } */
+}
+
+@media (width < 700px) {
+  .links {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .links {
+    height: 0;
+    overflow: hidden;
+    transition: height 0.5s ease;
+  }
+  .show-links {
+    height: 10rem;
+  }
+}
+
+@media (width > 600px) {
+  .mobile-nav {
+    display: none;
+  }
+}
+
+header button {
+  background: #0388a6;
+  border: none;
 }
