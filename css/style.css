@@ -323,3 +323,9 @@ header button {
   background: #0388a6;
   border: none;
 }
+
+@media (width < 500px) {
+  .nav-top {
+    display: none;
+  }
+}
