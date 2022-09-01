@@ -1,3 +1,4 @@
+
 @import "/css/general.css";
 @import url("https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&family=Syne:wght@400;600;700&display=swap");
 @import "/css/font.css";
@@ -6,10 +7,18 @@
 /* .mobile-nav {
   display: none;
 } */
+.main {
+  margin: 0 auto;
+  max-width:1366px;
+  padding: 0 2rem;
+}
+
 
 /* display nav-top */
 .nav-top {
   padding-bottom: 100px;
+  /* position: fixed;
+  align-items: center; */
 }
 
 .nav-top .main {
@@ -42,7 +51,7 @@
 
 .post {
   /* margin: 0 auto; */
-  /* padding: 1em; */
+
 }
 
 .post img {
@@ -80,7 +89,6 @@
   display: flex;
   justify-content: space-between;
   border-bottom: #f2b705 0.2px solid;
-
   padding-top: 1em;
   padding-right: 50px;
 }
@@ -303,10 +311,6 @@
     align-items: center;
   }
 
-  .nav-top {
-    display: none;
-  }
-
   .links {
     height: 0;
     overflow: hidden;
@@ -326,10 +330,4 @@
 header button {
   background: #0388a6;
   border: none;
-}
-
-@media (width < 500px) {
-  .nav-top {
-    display: none;
-  }
 }
