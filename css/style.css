@@ -346,7 +346,7 @@ header button {
 }
 
 
-@media (width < 500px) {
+@media (width < 600px) {
   .main {
     /* background-color: #f2b705; */
     display: grid;
