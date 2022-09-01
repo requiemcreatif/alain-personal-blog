@@ -304,6 +304,19 @@
 }
 
 @media (width < 700px) {
+  .main {
+    /* background-color: #f2b705; */
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+      "post-one post-two"
+      "post-three post-four"
+      "aside aside"; 
+  }
+
+  .pre-footer {
+    gap: 4rem;
+  }
   .links {
     display: flex;
     flex-direction: column;
@@ -324,6 +337,26 @@
 @media (width > 600px) {
   .mobile-nav {
     display: none;
+  }
+}
+
+header button {
+  background: #0388a6;
+  border: none;
+}
+
+
+@media (width < 500px) {
+  .main {
+    /* background-color: #f2b705; */
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      "post-one" 
+      "post-two"
+      "post-three" 
+      "post-four"
+      "aside "; 
   }
 }
 
